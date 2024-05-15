@@ -1,0 +1,12 @@
+RewriteEngine on
+RewriteRule ^Index index.php[NC,L]
+RewriteRule ^About about.php[NC,L]
+RewriteRule ^Faculty faculty.php[NC,L]
+RewriteRule ^Contact contact.php[NC,L]
+RewriteRule ^FindDoctor findDoctor.php[NC,L]
+RewriteRule ^Specialities specialities.php[NC,L]
+RewriteRule ^MEMORYBOOSTINGFOODSS MemoryBoostingFoods.php[NC,L]
+RewriteRule ^10BREASTCANCERFAQS 10BreastCancerFAQs.php[NC,L]
+RewriteRule ^MONKEYPOX Monkeypox.php[NC,L]
+RewriteRule ^MENINGIOMABRAINTUMORS MeningiomaBrainTumors.php[NC,L]
+RewriteRule ^ViewDoctor viewDoctor.php[NC,L]
