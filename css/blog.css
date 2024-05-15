@@ -1,0 +1,21 @@
+.blog{
+    text-align: justify;
+    font-size: 18px;
+    color: rgb(63, 63, 63);
+}
+.blogH1{
+    color: #0357f4;
+}
+.blogH5{
+    margin-top: 50px;
+    color: #03a9f4;
+}
+.blogImage{
+    max-height: 500px;
+    box-shadow: 5px 5px 10px gray;
+}
+.trimTxt{
+    color: rgba(0, 0, 0, 0.685);
+    font-weight: bold;
+    margin: 5px;
+}

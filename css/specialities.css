@@ -1,0 +1,27 @@
+.card{
+    background-color: #35b6b4;
+    color: #fff;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    height: 250px;
+    box-shadow: 5px 5px 10px gray;
+    font-size: 20px;
+}
+.card>img{
+    width:75px;
+}
+.card:hover{
+    background-color: #3578b6;
+    cursor: pointer;
+}
+h2{
+    color: rgb(4, 4, 138);
+    text-decoration: underline;
+    padding-left: 20px;
+    background-color: #06ffea11;
+    padding: 10px;
+    border-radius: 20px 20px 0 0;
+    margin-top: 20px;
+}

@@ -1,0 +1,76 @@
+.env {
+    background-color: #03a9f4;
+    color: #fff;
+    font-size: 22px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    padding: 20px;
+}
+
+.envelope {
+    height: 200px;
+    width: 200px;
+    border: 5px solid #fff;
+    padding: 20px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 255, 0.479);
+}
+
+.envelope>img {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.contactSide{
+    background-color: #03a9f4;
+    color: white;
+    border-radius: 5px;
+}
+.frBtn{
+    color: #fff;
+    margin: 5px;
+}
+#enquiryForm{
+ display: block;
+ cursor: auto;
+}
+#complimentsForm{
+    display: none;
+    cursor: auto;
+}
+#complaintsForm{
+    display: none;
+    cursor: auto;
+}
+#othersForm{
+    display: none;
+    cursor: auto;
+}
+.contPara{
+    margin-top: 20px;
+    color: #03a9f4;
+    text-align: justify;
+    border-bottom: 1px solid #03a9f4;
+}
+.contPara>i{
+    margin-right: 5px;
+    font-size: 20px;
+}
+.contHead{
+    border-bottom: 2px solid black;
+}
+
+
+@media screen and (max-width: 950px) {
+    .envelope{
+        height: 100px;
+        width: 100px;
+        border: 2px solid #fff;
+    }
+    .envelope>img{
+        width: 50px;
+    }
+}

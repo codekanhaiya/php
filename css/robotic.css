@@ -1,0 +1,54 @@
+.card{
+    border: none;
+}
+.image{
+    border-radius: 20px;
+    height: 400px;
+}
+.announce>img{
+    height: 15vh;
+    margin-left:20px ;
+}
+h2{
+    color: rgb(4, 4, 138);
+    text-decoration: underline;
+    margin-left: 20px;
+}
+.pbt{
+    margin-left: 20px;
+    color: #03a9f4;  
+}
+.pbt:hover{
+    color: #0313f4;
+}
+h1{
+    font-size: 30px;
+    color: #0313f4;
+    padding-left: 20px;
+}
+.span{
+    padding-left: 10px;
+    color: rgb(82, 82, 82);
+}
+.para{
+    text-align: justify;
+    color: rgb(82, 82, 82);
+}
+
+@media screen and (max-width: 950px) {
+    .roImg{
+        height: 40vh;
+    }
+    .roMan{
+        margin: 75px;
+    }
+    .roGolden{
+        margin: 0;
+        padding: 0;
+        width: 100px;
+    }
+    .announce>img{
+        height: 5vh;
+
+    }
+}

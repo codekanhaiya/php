@@ -1,0 +1,377 @@
+/* carousel_bar Designing */
+.main {
+    overflow: auto;
+    background-color: rgba(30, 255, 0, 0.103);
+    /* margin-bottom: 20px; */
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+.img-slider {
+    width: max-content;
+    position: relative;
+    margin: 1vw;
+    padding: 2vw;
+}
+
+.slider {
+    background-image: url("../img/10.jpg");
+    width: 95vw;
+    height: 75vh;
+    /* float: left; */
+    /* margin: 10px; */
+    /* object-fit: cover; */
+    /* display: block;
+    transition: 0.3s; */
+    border-radius: 10px;
+    animation: changeImage 100s alternate infinite;
+    /* transition-duration: 0.5s; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* .slider:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+} */
+
+/* .slider img {
+    width: 90vw;
+    border: 1px solid #03a9f4;
+    border-radius: 10px;
+    object-fit: cover;
+} */
+
+@keyframes changeImage {
+
+    0% {
+        background-image: url("../img/doctor.jpg");
+    }
+
+    10% {
+        background-image: url("../img/hospital.jpg");
+    }
+
+    20% {
+        background-image: url("../img//gate.jpg");
+    }
+
+    30% {
+        background-image: url("../img/emergency.jpg");
+    }
+
+    40% {
+        background-image: url("../img/baramda.jpg");
+    }
+
+    50% {
+        background-image: url("../img/chairs.jpg");
+    }
+
+    60% {
+        background-image: url("../img/rooms.jpg");
+    }
+
+    70% {
+        background-image: url("../img/bed.jpg");
+    }
+
+    80% {
+        background-image: url("../img/gallery.jpg");
+    }
+
+    90% {
+        background-image: url("../img/tools.jpg");
+    }
+    100% {
+        background-image: url("../img/doctor.jpg");
+    }
+
+}
+
+.main::-webkit-scrollbar {
+    display: none;
+}
+/* Appointment */
+
+.app>h2{
+    color: #00399a;
+}
+.app>h4{
+    color: #616161;
+}
+.appTxt{
+    font-weight: bold;
+}
+button{
+    width: max-content;
+}
+
+.indApp{
+    object-fit: cover;
+    overflow: hidden;
+  }
+
+/* specialization content  */
+
+.specification_main h1 {
+    color: #003a70;
+}
+
+.specialities {
+    color: #616161;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.procedures {
+    color: #616161;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.specialities:hover {
+    color: #35b6b4;
+    text-decoration: underline;
+}
+
+.procedures:hover {
+    color: #35b6b4;
+    text-decoration: underline;
+}
+
+.lis{
+	list-style:none;
+}
+
+.lis>a {
+    color: #00399a;
+}
+
+.lis>img {
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    padding: 5px;
+    background-color: #35b6b4;
+    border-radius: 5px;
+}
+.link-secondary{
+    font-size: 22px;
+}
+.link-secondary>img{
+    padding-bottom: 5px;
+}
+
+.speci2>img {
+    padding-top: 50px;
+    width: 100%;
+    width: 100%;
+}
+.content_doc{
+    padding: 60px;
+    position: absolute;
+    justify-content: left;
+    text-align: left;
+}
+.content_doc>h1{
+    color: #fff;
+    font-size: 25px;
+}
+.content_doc>p{
+    font-size: 18px;
+    color: #fff;
+    text-align: left;
+}
+
+.find_doc{
+    background-color: #0082a8;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.find_doc:hover{
+    text-decoration: none;
+    color: white;
+    background-color: #005e7a;
+}
+.find_doc>img{
+    color: #fff;
+    padding-left: 2px;
+}
+#specialIcon{
+    display: block;
+}
+#proceIcon{
+    display: none;
+}
+
+/* next-generation */
+.cf{
+    background-color: #dcf4ff67;
+    padding: 50px;
+}
+.rob{
+    padding: 10px;
+    border-radius: 20px;
+}
+.rob>img{
+    width: 100%;
+    border-radius: 20px;
+}
+.rob>img:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.rob_info{
+    color: #35b6b4;
+    font-size: 25px;
+    text-decoration:underline; 
+}
+.rob_info_detail{
+    color:#717171;
+    font-size: 18px;
+    margin-top: 20px;
+    text-align: justify;
+}
+.rob_info_more{
+    background-color: #0082a8;
+    padding: 10px 30px;
+    border-radius: 5px;
+    margin-top: 30px;
+    width: max-content;
+}
+.rob_info_more>a{
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Health Blogs */
+.card{
+    margin-bottom: 10px;
+    height: 250px;
+}
+.card>img{
+    height: 150px;
+    width:100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+.card-text{
+    color: #7a5454;
+    font-size: 14px;
+    text-align: left;
+}
+.txt{
+    color: #00399a;
+    justify-content: center;
+    text-align: center;
+}
+.link-primary{
+    margin-top: 50px;
+}
+.link-primary>img{
+    width:15px;
+    padding-bottom: 5px;
+}
+
+
+/* <!-- Health Insureance Section --> */
+
+.about_bar {
+    height: max-content;
+    width: 100vw;
+    background-color: #fcfaf7;
+    display: grid;
+    text-align: left;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+.about_content {
+    width: 90vw;
+    background-color: #fff;
+    padding: 10px;
+    text-align: justify;
+}
+
+#more {
+    display: none;
+}
+
+.para {
+    max-width: 90vw;
+    margin: 20px;
+    text-align: left;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+.paragraph {
+    margin: 16px 0;
+    text-align: justify;
+}
+
+#Btn {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #03a9f4;
+    background-color: transparent;
+    padding: 8px 16px;
+    border-radius: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    display: block;
+    width: max-content;
+    float: right;
+    transition: 0.5s;
+    margin: 20px;
+}
+
+#Btn:hover {
+    background-color: #03a9f4;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.page_img {
+    width: 50vw;
+}
+
+/* Blogs  */
+.blogAnchor:hover{
+    text-decoration: none;
+}
+
+
+
+@media screen and (max-width: 550px) {
+    .card{
+       margin-left:10vw ;
+       margin-right: 10vw;
+    }
+
+}
+  

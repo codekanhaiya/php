@@ -1,0 +1,46 @@
+.main {
+    background-color: #03a9f4;
+    padding: 20px;
+}
+
+h6>img{
+    width:25px;
+    margin: 10px;
+}
+.div{
+    width: 60vw;
+}
+.collapsible {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+
+.active,
+.collapsible:hover {
+    background-color: white;
+}
+
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: white;
+}
+
+@media screen and (max-width: 768px) {
+    .div{
+        width: 90vw;
+    }
+    .rounded{
+        width:200px;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+  }

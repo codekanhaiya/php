@@ -1,0 +1,127 @@
+.aboutCard {
+    background-color: #0394f4;
+    padding: 50px 10px;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    padding-left: 50px;
+}
+
+.know {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+
+.aboutGroup {
+    height: 200px;
+    width: 200px;
+    border: 5px solid #fff;
+    padding: 20px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 255, 0.479);
+}
+
+.aboutGroup>img {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.aboutImg {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 25px;
+}
+
+.aboutPoint {
+    font-size: 30px;
+}
+
+.aboutRow {
+    margin: 15px;
+}
+
+.aboutPara {
+    color: rgb(46, 46, 46);
+    text-align: justify;
+}
+
+.aboutCut {
+    font-weight: bold;
+}
+
+.aboutTitle {
+    background-color: #0394f4;
+    padding: 20px;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 10px 10px 0 0;
+}
+
+.aboutBody {
+    text-align: justify;
+}
+
+.abtCard {
+    border: 1px solid #0394f4;
+    height: 250px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+
+@media screen and (max-width: 950px) {
+    h1 {
+        padding-left: 0px;
+    }
+
+    .aboutPoint,
+    h1 {
+        font-size: small;
+    }
+
+    .aboutGroup {
+        height: 100px;
+        width: 100px;
+        margin-top: 20px;
+    }
+
+    .aboutGroup>img {
+        height: 50px;
+    }
+
+    .aboutImg {
+        width: 15px;
+    }
+
+    .aboutRow {
+        margin: 2px;
+    }
+
+    .know {
+        width: 80vw;
+    }
+    .adir>img{
+        height: 25vh;
+    }
+    .aboutPara{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+@media screen and (max-width: 1230px) {
+    .adir>img{
+        height: 25vh;
+    }
+    .aboutBody{
+        overflow: hidden;
+    }
+}
