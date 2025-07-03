@@ -1,4 +1,4 @@
-# 🏥 PHP HealthCare Portal
+# 🏥 PHP (Public Healthcare Portal)
 
 [![Live Demo](https://img.shields.io/badge/Live-Demo-green?style=flat-square&logo=google-chrome)](http://officialphp.epizy.com/)
 [![GitHub Issues](https://img.shields.io/github/issues/codekanhaiya/php?style=flat-square)](https://github.com/codekanhaiya/php/issues)
