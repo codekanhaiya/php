@@ -140,7 +140,7 @@ git push origin feature/new-feature
 
 ## 📄 License
 
-This project is licensed under the **MIT License**.
+This project is open for **educational learning and personal use**.
 
 ---
 
